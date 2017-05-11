@@ -8,4 +8,3 @@ Aim of this repo
 Check out each project
 ----------------------
 - `SATIN <https://github.com/ybayle/research/tree/master/bayle/satin>`_, a MIR dataset
-
