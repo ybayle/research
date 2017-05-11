@@ -54,9 +54,9 @@ As the features in SOFT1 are too large to be shared on a GitHub repository, plea
 
 You can either fork the repo and launch `python satin.py`
 
-or you can type in your linux terminal `pip install satin` and launch these two commands in your python interpreter:
+or you can type in your linux terminal `pip install bayle` and launch these two commands in your python interpreter:
 ```
-import satin
+from bayle import satin
 satin.main()
 ```
 
@@ -78,13 +78,13 @@ We hope that SATIN and SOFT1, in their current state, will be helpful in your re
 
 ## Documentation
 
-Please refer to the [wiki](https://github.com/ybayle/SATIN/wiki).
+Please refer to the [wiki](https://github.com/ybayle/research/wiki).
 
 ## License
 
-- If you use SATIN and/or SOFT1, please [cite us accordingly](https://github.com/ybayle/SATIN/blob/master/citation.bib) (our related research paper can be found [here](https://www.researchgate.net/project/Toward-better-playlists-from-bigger-musical-databases-use-case-in-singing-voice-detection-at-track-scale)).
+- If you use SATIN and/or SOFT1, please [cite us accordingly](https://github.com/ybayle/research/blob/master/bayle/satin/citation.bib) (our related research paper can be found [here](https://www.researchgate.net/project/Toward-better-playlists-from-bigger-musical-databases-use-case-in-singing-voice-detection-at-track-scale)).
 - We are grateful to [Musixmatch](https://www.musixmatch.com/fr), [Deezer](http://www.deezer.com) and [Simbals](http://www.simbals.com) who made this dataset possible.
-- SATIN, SOFT1 and the code in this repository is licensed under the terms of the [GNU Affero General Public License Version 3](https://github.com/ybayle/SATIN/blob/master/LICENSE.md).
+- SATIN, SOFT1 and the code in this repository is licensed under the terms of the [GNU Affero General Public License Version 3](https://github.com/ybayle/research/blob/master/LICENSE.txt).
 
 ## Contact
 

@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Custom ignore
+bayle/satin/ISRC_country_repartition.png
+bayle/satin/ISRC_valid.txt
+bayle/satin/ISRC_year_distribution.png
+bayle/satin/createSpotifyPlaylist.py
+bayle/satin/utils_to_add.py
