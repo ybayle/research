@@ -5,6 +5,6 @@ Aim of this repo
 - This repository is licensed under the terms of the `GNU Affero General Public License Version 3 <https://github.com/ybayle/research/blob/master/LICENSE.txt>`_.
 - For more information please contact me bayle.yann@live.fr or visit `yannbayle.fr <http://yannbayle.fr/english/index.php>`_
 
-List
-----
+Check out each project
+----------------------
 - `SATIN <https://github.com/ybayle/research/tree/master/bayle/satin>`_, a MIR dataset
