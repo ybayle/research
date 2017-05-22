@@ -148,7 +148,7 @@ def abs_path_dir(dir_name):
         print("Invalid directory name: " + dir_name)
         sys.exit()
 
-def validate_isrc(isrc, year_min=17, year_max=18):
+def validate_isrc(isrc="ADA010819529", year_min=17, year_max=18):
     """Description of validISRC
 
     Return True if isrc provided is valid, False otherwise
@@ -182,7 +182,7 @@ def validate_isrcs(infile="./assets/SATIN.csv", outfile="./ISRC_invalid.txt", in
         if os.path.isfile(infile):
             infile = os.path.abspath(infile)
         else:
-            print("Invalid input file")
+            print("Invalid input file: " + infile)
             sys.exit()
     if not os.path.isfile(outfile):
         outfile = os.path.abspath(outfile)
