@@ -24,8 +24,8 @@ import os
 import json
 import argparse
 import requests
-import isrc
 import matplotlib.pyplot as plt
+# import isrc
 from lxml.html import fromstring
 from wordcloud import WordCloud
 
@@ -152,6 +152,17 @@ def genres_word_cloud(infilename="SATIN.csv"):
     plt.close()
     print("Genres word cloud image saved")
 
+def main():
+    """
+    """
+    isrc.validate_isrcs()
+    isrc.plot_isrc_year_distribution()
+    isrc.plot_isrc_country_repartition()
+    isrc.stat()
+    display_lyrics()
+    track_info()
+    genres_word_cloud()
+
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser(description="SATIN's API")
     PARSER.add_argument(
@@ -174,6 +185,7 @@ if __name__ == "__main__":
         help="input dir containing files with name corresponding to an ISRC",
         type=str,
         metavar="dir_input")
+    main(PARSER.parse_args())
 
     isrc.validate_isrcs(PARSER.parse_args().input_file, \
         PARSER.parse_args().outfile, \

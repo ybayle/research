@@ -164,7 +164,7 @@ def validate_isrc(isrc, year_min=17, year_max=18):
                 return True
     return False
 
-def validate_isrcs(infile="isrc.txt", outfile="ISRC_invalid.txt", indir=None):
+def validate_isrcs(infile="./assets/SATIN.csv", outfile="./ISRC_invalid.txt", indir=None):
     """Description of validate_isrcs
 
     Validate a list of ISRCs contained into a file
