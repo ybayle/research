@@ -7,6 +7,6 @@ Aim of this repo
 
 Check out each project
 ----------------------
-- `SATIN <https://github.com/ybayle/SATIN>`_, a MIR dataset
-- `Singer Gender Classification (SGC) <https://github.com/ybayle/ISMIR2017>`_, a MIR task
-- `Songs Instrumentals Classification (SIC) <https://github.com/ybayle/ReproducibleResearchIEEE2017>`_, a MIR task
+- `SATIN <https://github.com/ybayle/research/tree/master/bayle>`_, a MIR dataset (more info `here <https://github.com/ybayle/SATIN>`_)
+- `Singer Gender Classification (SGC) <https://github.com/ybayle/ISM2017>`_, a MIR task
+- `Songs Instrumentals Classification (SIC) <https://github.com/ybayle/SMC2017>`_, a MIR task
