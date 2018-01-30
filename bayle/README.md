@@ -1,6 +1,25 @@
 # SATIN
 
-SATIN stands for the `Set of Audio Tags and Identifiers Normalized` and was proposed in [this article](https://www.researchgate.net/project/Toward-better-playlists-from-bigger-musical-databases-use-case-in-singing-voice-detection-at-track-scale).
+SATIN stands for the `Set of Audio Tags and Identifiers Normalized` and was proposed in [this article](https://www.researchgate.net/project/Toward-better-playlists-from-bigger-musical-databases-use-case-in-singing-voice-detection-at-track-scale) that you can cite like this:
+```
+@inproceedings{Bayle2017,
+ author = {Bayle, Yann and Hanna, Pierre and Robine, Matthias},
+ title = {SATIN: A persistent musical database for music information retrieval},
+ booktitle = {Proceedings of the 15th International Workshop on Content-Based Multimedia Indexing},
+ year = {2017},
+ isbn = {978-1-4503-5333-5},
+ location = {Florence, Italy},
+ pages = {2:1--2:5},
+ articleno = {2},
+ numpages = {5},
+ url = {http://doi.acm.org/10.1145/3095713.3095716},
+ doi = {10.1145/3095713.3095716},
+ acmid = {3095716},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Audio, Classification of Instrumentals and Songs, Database, Music Information Retrieval, Reproducibility},
+}
+```
 SATIN is a Music Information Retrieval (MIR) database for reproducible research.
 SATIN is shipped along SOFT1, the first Set Of FeaTures extracted by musical pieces referenced by SATIN.
 
